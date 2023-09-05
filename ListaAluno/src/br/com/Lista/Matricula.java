@@ -8,8 +8,6 @@ public class Matricula {
 		this.aluno = aluno;
 		this.curso = curso;
 	}
-	
-	
 	public Aluno getAluno() {
 		return aluno;
 	}
