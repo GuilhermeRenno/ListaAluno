@@ -4,9 +4,9 @@ public class Aluno {
 	private int matricula;
 	private String nome;
 	
-	public void construtotMatricula(int matriculaC, String nomeC ) {
-		this.matricula = matriculaC;
-		this.nome = nomeC;
+	public void construtotMatricula(int matricula, String nome ) {
+		this.matricula = matricula;
+		this.nome = nome;
 	}
 	
 	public int getMatricula() {
