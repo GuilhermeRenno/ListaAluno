@@ -4,6 +4,10 @@ import java.util.ArrayList;
 
 public class TesteMatricula {
 	public static void main(String[]args) {
+		
+		ArrayList<String> alunos = new ArrayList<>();
+		ArrayList<String> cursos = new ArrayList<>();
+		
 		Aluno a1 = new Aluno();
 		a1.construtotMatricula(12345, "ana");
 		a1.setNome("ana2");
@@ -15,8 +19,7 @@ public class TesteMatricula {
 		c1.setNome("calculo");
 		Curso c2 = new Curso();
 		c2.construtorCurso(2, "matematica2", 5);
-		
-		
+
 		Matricula m1 = new Matricula();
 		m1.construtorMatricula(a1, c1);
 		System.out.println(m1.getAluno().getNome());
@@ -27,11 +30,11 @@ public class TesteMatricula {
 			
 			
 			
-		ArrayList<String> cursos = new ArrayList<>();
+		
 		cursos.add(c1.getNome());
 		cursos.add(c2.getNome());
 		cursos.trimToSize();
-		ArrayList<String> alunos = new ArrayList<>();
+		
 		alunos.add(a1.getNome());
 		alunos.add(a2.getNome());
 		
